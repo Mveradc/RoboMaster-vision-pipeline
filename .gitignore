@@ -1,2 +1,30 @@
+# Datasets and artifacts
 **/data_train
 *.zip
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+.local/
+.npm/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Model weights and training outputs
+runs/
+*.pt
+*.onnx
+
+# Shell / editor / OS
+.bash_history
+.gitconfig
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
